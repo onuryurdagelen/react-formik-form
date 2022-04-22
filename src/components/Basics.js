@@ -16,6 +16,7 @@ const Basics = () =>{
           onSubmit={async (values) => {
             console.log(values);
           }}
+          
         >
         {
           ({handleSubmit,handleChange,values}) =>(
@@ -73,11 +74,11 @@ const Basics = () =>{
     
                 <div>
                   Football
-                  <input  onChange={handleChange}   name='hobbies' type="checkbox" value="Football"/>
+                  <input  onChange={handleChange} name='hobbies' type="checkbox" value="Football"/>
                 </div>
                <div>
               Cinema
-               <input  onChange={handleChange}   name='hobbies' type="checkbox" value="Cinema" />
+               <input  onChange={handleChange} name='hobbies' type="checkbox" value="Cinema" />
                </div>
                <div>
                  Photography
